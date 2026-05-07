@@ -3,7 +3,6 @@
 function filterEvenNumbers(numbers: number[]): number[] {
     return numbers.filter((num) => num % 2 === 0);
 }
-console.log(filterEvenNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9]));
 
 
 //Problem 2
@@ -11,7 +10,6 @@ console.log(filterEvenNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9]));
 function reverseString(text: string): string {
     return text.split('').reverse().join('');
 }
-console.log(reverseString('typescript'))
 
 
 //Problem 3
@@ -26,8 +24,7 @@ function checkType(value: StringOrNumber): string {
   return "Number";
 }
 
-console.log(checkType("Hello"));
-console.log(checkType(42));
+
 
 
 // Problem 4
@@ -42,7 +39,6 @@ const user = {
   age: 21,
 };
 
-console.log(getProperty(user, "name"));
 
 
 // Problem 5
@@ -66,7 +62,6 @@ const myBook = {
   publishedYear: 2024,
 };
 
-console.log(toggleReadStatus(myBook));
 
 
 // Problem 6
@@ -96,7 +91,6 @@ class Student extends Person {
 
 const student = new Student("Alice", 20, "A");
 
-console.log(student.getDetails());
 
 
 // Problem 7
